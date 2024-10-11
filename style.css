@@ -1,0 +1,30 @@
+body{
+    background-color: bisque;
+    font-family: "Macondo", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size:3dvw;
+    color: rgba(189, 1, 1, 0.996);
+    align-items: center;
+}
+header{
+    text-align: center;
+}
+img{
+    height: 33%;
+    width: 33%;
+}
+.fotos{
+    display: flex;
+    flex-wrap: wrap;
+}
+@media (max-width:1000px) {
+    img{
+        width: 50%;
+    }
+}
+@media (max-width:600px) {
+    img{
+        width: 100%;
+    }
+}
